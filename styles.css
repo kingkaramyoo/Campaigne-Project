@@ -1,0 +1,78 @@
+img{
+    width:200px;
+    margin:5px;
+}
+body{
+   font-family: 'Charmonman', cursive;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+#donate h2 {text-shadow: 2px 2px #FFFFFF;}
+
+#eagles h2 {text-shadow: 2px 2px #ff0000;}
+p {
+    font-size: 20px;
+}
+    
+#header, #donate, #eagles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#header {
+    color: white;
+    background-image: url("https://cdn0.vox-cdn.com/thumbor/kSXv8hQ-E5jKyokLb5hgdMwmg9A=/0x4:640x339/fit-in/1200x630/cdn1.vox-cdn.com/uploads/chorus_asset/file/6843077/michelle_02.gif");
+    
+}
+
+#donate {
+    background-image: url("https://media.giphy.com/media/26xBGd4ho9zZptWbC/giphy.gif");
+    color:green;
+}
+#eagles {
+    background: orange ;
+    color: white;
+}
+
+#pics img{
+    width: 20%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .9s ease-in-out;
+}
+#pics {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+    
+}
+
+#pics img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+#donate button {
+    width: 300px;   
+    height: 50px;
+    font-size: 20px;
+    background: blue;
+    color: white;
+    border-radius: 5px;
+    border: solid white 3px;
+}
+
+#donate button:hover {
+    background: yellow;
+    color: black;
+}
